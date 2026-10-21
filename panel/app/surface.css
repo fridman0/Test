@@ -1,0 +1,16 @@
+:root{background:var(--bg);view-transition-name:none}
+body{margin:0;max-width:none;min-height:100dvh;border:0}
+body::before{display:none}
+.app-shell{min-height:100dvh}
+.app-shell.signed-in{min-height:100dvh;grid-template-rows:104px 1fr}
+.signed-in>header{padding-left:30px;padding-right:30px}
+.signed-in>.sidebar{min-height:calc(100dvh - 104px)}
+.signed-in>main{padding:48px clamp(25px,4vw,70px) 0;view-transition-name:panel-content}
+::view-transition-group(panel-content){animation-duration:240ms;animation-timing-function:cubic-bezier(.22,1,.36,1)}
+::view-transition-old(panel-content){animation:panel-leave 140ms ease-out both}
+::view-transition-new(panel-content){animation:panel-enter 240ms cubic-bezier(.22,1,.36,1) both}
+@keyframes panel-leave{to{opacity:0;transform:translateY(-6px)}}
+@keyframes panel-enter{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:translateY(0)}}
+@media(max-width:760px){.app-shell.signed-in{min-height:100dvh}.signed-in>header{padding:18px 16px}.signed-in>main{padding:32px 20px 0}.signed-in>.sidebar{min-height:100dvh}main{padding-left:22px;padding-right:22px}}
+@media(prefers-reduced-motion:reduce){::view-transition-group(panel-content),::view-transition-old(panel-content),::view-transition-new(panel-content){animation:none}}
+.driver-picker{margin-bottom:24px}.picker-fields{display:grid;grid-template-columns:2fr 1.4fr 1fr 1fr;gap:18px}.picker-fields label{margin-top:8px}select{font:inherit;width:100%;min-width:0;padding:14px 34px 14px 14px;border:1px solid var(--border);border-radius:8px;background:var(--field);color:var(--text);font-size:13px}select:focus-visible{outline:2px solid var(--accent);outline-offset:3px}select:disabled{opacity:.55;cursor:not-allowed}.picker-result{margin-top:24px;border-top:1px solid var(--border);padding-top:20px}.picker-result b{font-size:13px}.picker-result p:last-child{margin-bottom:0}.picker-result .file{flex-wrap:wrap}@media(max-width:1100px){.picker-fields{grid-template-columns:1fr 1fr}}@media(max-width:600px){.picker-fields{grid-template-columns:1fr}}
