@@ -1,0 +1,19 @@
+{
+  "id": "canon-i-sensys-mf842cdw",
+  "manufacturer": "canon",
+  "model": "Canon i-SENSYS MF842Cdw",
+  "status": "awaiting-files",
+  "series": "i-SENSYS MF",
+  "color": "color",
+  "sourceUrl": "https://oip.manual.canon/portal-eu-af-me-ru/contents/isensys-mf-cl.html",
+  "manualUrl": "https://oip.manual.canon/USRMA-5852-zz-SSM-sugg-enGB/",
+  "checkedAt": "2026-10-22",
+  "targetOperatingSystems": [
+    "windows-10-x64",
+    "windows-11-x64",
+    "linux-x86_64"
+  ],
+  "driverCandidates": [],
+  "notes": "Карточка модели подтверждена официальным источником. Целевые ОС — план подбора, не заявление о совместимости. Готовые драйверы и PPD в репозиторий ещё не загружены.",
+  "files": []
+}

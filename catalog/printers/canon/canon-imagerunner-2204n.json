@@ -1,0 +1,25 @@
+{
+  "id": "canon-imagerunner-2204n",
+  "manufacturer": "canon",
+  "model": "Canon imageRUNNER 2204N",
+  "status": "awaiting-files",
+  "series": "imageRUNNER",
+  "color": "monochrome",
+  "sourceUrl": "https://oip.manual.canon/portal-eu-af-me-ru/contents/ir-bw.html",
+  "manualUrl": "https://oip.manual.canon/USRMA-0986-zz-CS-enGB/",
+  "checkedAt": "2026-10-22",
+  "targetOperatingSystems": [
+    "windows-10-x64",
+    "windows-11-x64",
+    "linux-x86_64"
+  ],
+  "driverCandidates": [
+    {
+      "packageId": "canon-ufrii-linux-6-40",
+      "vendorModel": "imageRUNNER 2204F/ 2204N",
+      "verification": "vendor-listed"
+    }
+  ],
+  "notes": "Карточка модели подтверждена официальным источником. Целевые ОС — план подбора, не заявление о совместимости. Готовые драйверы и PPD в репозиторий ещё не загружены.",
+  "files": []
+}

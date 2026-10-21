@@ -1,0 +1,23 @@
+{
+  "id": "canon-lbp2900b",
+  "manufacturer": "canon",
+  "model": "Canon LBP2900B",
+  "status": "awaiting-files",
+  "series": "LBP / CAPT",
+  "sourceUrl": "https://my.canon/en/support/0100459601",
+  "checkedAt": "2026-10-22",
+  "targetOperatingSystems": [
+    "windows-10-x64",
+    "windows-11-x64",
+    "linux-x86_64"
+  ],
+  "driverCandidates": [
+    {
+      "packageId": "canon-capt-linux-2-71",
+      "vendorModel": "LASER SHOT LBP2900/ 2900B",
+      "verification": "vendor-listed"
+    }
+  ],
+  "notes": "Карточка модели подтверждена официальным источником. Целевые ОС — план подбора, не заявление о совместимости. Готовые драйверы и PPD в репозиторий ещё не загружены.",
+  "files": []
+}

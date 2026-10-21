@@ -1,0 +1,19 @@
+{
+  "id": "canon-imagerunner-advance-715iz-ii",
+  "manufacturer": "canon",
+  "model": "Canon imageRUNNER ADVANCE 715iZ II",
+  "status": "awaiting-files",
+  "series": "imageRUNNER ADVANCE",
+  "color": "monochrome",
+  "sourceUrl": "https://oip.manual.canon/portal-eu-af-me-ru/contents/iradv-bw.html",
+  "manualUrl": "https://oip.manual.canon/USRMA-3442-zz-CS-715-enGB/",
+  "checkedAt": "2026-10-22",
+  "targetOperatingSystems": [
+    "windows-10-x64",
+    "windows-11-x64",
+    "linux-x86_64"
+  ],
+  "driverCandidates": [],
+  "notes": "Карточка модели подтверждена официальным источником. Целевые ОС — план подбора, не заявление о совместимости. Готовые драйверы и PPD в репозиторий ещё не загружены.",
+  "files": []
+}

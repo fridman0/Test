@@ -1,0 +1,30 @@
+{
+  "id": "canon-i-sensys-lbp7680cx",
+  "manufacturer": "canon",
+  "model": "Canon i-SENSYS LBP7680Cx",
+  "status": "awaiting-files",
+  "series": "i-SENSYS LBP",
+  "color": "color",
+  "sourceUrl": "https://oip.manual.canon/portal-eu-af-me-ru/contents/isensys-lbp-cl.html",
+  "manualUrl": "https://oip.manual.canon/USRMA-0220-zz-SS-enGB/",
+  "checkedAt": "2026-10-22",
+  "targetOperatingSystems": [
+    "windows-10-x64",
+    "windows-11-x64",
+    "linux-x86_64"
+  ],
+  "driverCandidates": [
+    {
+      "packageId": "canon-ufrii-linux-6-40",
+      "vendorModel": "imageCLASS LBP7680Cx",
+      "verification": "regional-name-match-needs-review"
+    },
+    {
+      "packageId": "canon-generic-plus-ufrii-windows-3-50",
+      "vendorModel": "imageCLASS LBP7680Cx",
+      "verification": "regional-name-match-needs-review"
+    }
+  ],
+  "notes": "Карточка модели подтверждена официальным источником. Целевые ОС — план подбора, не заявление о совместимости. Готовые драйверы и PPD в репозиторий ещё не загружены.",
+  "files": []
+}

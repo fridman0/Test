@@ -1,0 +1,19 @@
+{
+  "id": "canon-imagerunner-advance-dx-c477i",
+  "manufacturer": "canon",
+  "model": "Canon imageRUNNER ADVANCE DX C477i",
+  "status": "awaiting-files",
+  "series": "imageRUNNER ADVANCE DX",
+  "color": "color",
+  "sourceUrl": "https://oip.manual.canon/portal-eu-af-me-ru/contents/iradvdx-cl.html",
+  "manualUrl": "https://oip.manual.canon/USRMA-4857-zz-CS-477-enGB/",
+  "checkedAt": "2026-10-22",
+  "targetOperatingSystems": [
+    "windows-10-x64",
+    "windows-11-x64",
+    "linux-x86_64"
+  ],
+  "driverCandidates": [],
+  "notes": "Карточка модели подтверждена официальным источником. Целевые ОС — план подбора, не заявление о совместимости. Готовые драйверы и PPD в репозиторий ещё не загружены.",
+  "files": []
+}

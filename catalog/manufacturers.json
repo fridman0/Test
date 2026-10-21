@@ -1,4 +1,9 @@
 {
   "schemaVersion": 1,
-  "manufacturers": []
+  "manufacturers": [
+    {
+      "id": "canon",
+      "name": "Canon"
+    }
+  ]
 }

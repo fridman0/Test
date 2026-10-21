@@ -1,0 +1,19 @@
+{
+  "id": "canon-imagerunner-c3125i",
+  "manufacturer": "canon",
+  "model": "Canon imageRUNNER C3125i",
+  "status": "awaiting-files",
+  "series": "imageRUNNER",
+  "color": "color",
+  "sourceUrl": "https://oip.manual.canon/portal-eu-af-me-ru/contents/ir-cl.html",
+  "manualUrl": "https://oip.manual.canon/USRMA-4602-zz-CSL-3100-enGB/",
+  "checkedAt": "2026-10-22",
+  "targetOperatingSystems": [
+    "windows-10-x64",
+    "windows-11-x64",
+    "linux-x86_64"
+  ],
+  "driverCandidates": [],
+  "notes": "Карточка модели подтверждена официальным источником. Целевые ОС — план подбора, не заявление о совместимости. Готовые драйверы и PPD в репозиторий ещё не загружены.",
+  "files": []
+}

@@ -1,0 +1,25 @@
+{
+  "id": "canon-i-sensys-mf664cdw",
+  "manufacturer": "canon",
+  "model": "Canon i-SENSYS MF664Cdw",
+  "status": "awaiting-files",
+  "series": "i-SENSYS MF",
+  "color": "color",
+  "sourceUrl": "https://oip.manual.canon/portal-eu-af-me-ru/contents/isensys-mf-cl.html",
+  "manualUrl": "https://oip.manual.canon/USRMA-9964-zz-SSM-660-enGB/",
+  "checkedAt": "2026-10-22",
+  "targetOperatingSystems": [
+    "windows-10-x64",
+    "windows-11-x64",
+    "linux-x86_64"
+  ],
+  "driverCandidates": [
+    {
+      "packageId": "canon-generic-plus-ufrii-windows-3-50",
+      "vendorModel": "imageCLASS MF664Cdw",
+      "verification": "regional-name-match-needs-review"
+    }
+  ],
+  "notes": "Карточка модели подтверждена официальным источником. Целевые ОС — план подбора, не заявление о совместимости. Готовые драйверы и PPD в репозиторий ещё не загружены.",
+  "files": []
+}

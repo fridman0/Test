@@ -1,0 +1,19 @@
+{
+  "id": "canon-imagerunner-2206if",
+  "manufacturer": "canon",
+  "model": "Canon imageRUNNER 2206iF",
+  "status": "awaiting-files",
+  "series": "imageRUNNER",
+  "color": "monochrome",
+  "sourceUrl": "https://oip.manual.canon/portal-eu-af-me-ru/contents/ir-bw.html",
+  "manualUrl": "https://oip.manual.canon/USRMA-6400-zz-SS-enGB.pdf",
+  "checkedAt": "2026-10-22",
+  "targetOperatingSystems": [
+    "windows-10-x64",
+    "windows-11-x64",
+    "linux-x86_64"
+  ],
+  "driverCandidates": [],
+  "notes": "Карточка модели подтверждена официальным источником. Целевые ОС — план подбора, не заявление о совместимости. Готовые драйверы и PPD в репозиторий ещё не загружены.",
+  "files": []
+}
