@@ -1,0 +1,13 @@
+node_modules/
+*.exe
+*.msi
+*.deb
+*.rpm
+*.zip
+*.7z
+*.tar
+*.gz
+*.ppd
+.env
+.env.*
+*.pem

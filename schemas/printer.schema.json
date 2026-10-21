@@ -1,0 +1,30 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "PrintHub printer",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["id", "manufacturer", "model", "files"],
+  "properties": {
+    "id": {"type":"string","pattern":"^[a-z0-9]+(?:-[a-z0-9]+)*$"},
+    "manufacturer": {"type":"string","pattern":"^[a-z0-9]+(?:-[a-z0-9]+)*$"},
+    "model": {"type":"string","minLength":1},
+    "files": {"type":"array","minItems":1,"items":{
+      "type":"object","additionalProperties":false,
+      "required":["id","kind","os","osVersions","architecture","version","filename","sizeBytes","sha256","downloadUrl","sourceUrl","license"],
+      "properties":{
+        "id":{"type":"string","pattern":"^[a-z0-9]+(?:-[a-z0-9]+)*$"},
+        "kind":{"enum":["driver","ppd"]},
+        "os":{"enum":["windows","linux","macos"]},
+        "osVersions":{"type":"array","minItems":1,"uniqueItems":true,"items":{"type":"string","minLength":1}},
+        "architecture":{"enum":["x86","x86_64","arm64","any"]},
+        "version":{"type":"string","minLength":1},
+        "filename":{"type":"string","pattern":"^[a-zA-Z0-9][a-zA-Z0-9._-]*$"},
+        "sizeBytes":{"type":"integer","minimum":1},
+        "sha256":{"type":"string","pattern":"^[a-f0-9]{64}$"},
+        "downloadUrl":{"type":"string","pattern":"^https://github\\.com/fridman0/Test/releases/download/[^/?#]+/[^/?#]+$"},
+        "sourceUrl":{"type":"string","pattern":"^https://"},
+        "license":{"type":"string","minLength":1}
+      }
+    }}
+  }
+}
