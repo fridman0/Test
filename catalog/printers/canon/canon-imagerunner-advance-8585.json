@@ -2,7 +2,7 @@
   "id": "canon-imagerunner-advance-8585",
   "manufacturer": "canon",
   "model": "Canon imageRUNNER ADVANCE 8585",
-  "status": "awaiting-files",
+  "status": "ready",
   "series": "imageRUNNER ADVANCE",
   "color": "monochrome",
   "sourceUrl": "https://oip.manual.canon/portal-eu-af-me-ru/contents/iradv-bw.html",
@@ -25,6 +25,28 @@
       "verification": "vendor-listed"
     }
   ],
-  "notes": "Карточка модели подтверждена официальным источником. Целевые ОС — план подбора, не заявление о совместимости. Готовые драйверы и PPD в репозиторий ещё не загружены.",
-  "files": []
+  "notes": "Доступен оригинальный GPL PPD с совпадением обозначения модели. Требуется указанный фильтр Canon. Установка и печать в ALT Linux не проверены; статус ready означает наличие файла, а не проверку всех ОС.",
+  "files": [
+    {
+      "id": "canon-linux-ppd",
+      "kind": "ppd",
+      "os": "linux",
+      "osVersions": [],
+      "architecture": "any",
+      "version": "V6.40",
+      "filename": "CNRCUPSIRADV85853ZJ.ppd",
+      "sizeBytes": 199105,
+      "sha256": "ec0d4b6a5f74fcf62bd378a726a024bf371b9b165789eeed64aebc304ab93713",
+      "downloadUrl": "https://github.com/fridman0/Test/releases/download/canon-ppd-2026-10-22/CNRCUPSIRADV85853ZJ.ppd",
+      "sourceUrl": "https://sg.canon/en/support/0100924010",
+      "license": "GPL-2.0-or-later",
+      "verification": "extracted-not-print-tested",
+      "requires": [
+        "CUPS",
+        "rastertoufr2"
+      ],
+      "packageId": "canon-ufrii-linux-6-40",
+      "ppdModelName": "Canon iR-ADV 8585/8595 III LIPSLX"
+    }
+  ]
 }

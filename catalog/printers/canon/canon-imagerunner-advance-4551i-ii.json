@@ -2,7 +2,7 @@
   "id": "canon-imagerunner-advance-4551i-ii",
   "manufacturer": "canon",
   "model": "Canon imageRUNNER ADVANCE 4551i II",
-  "status": "awaiting-files",
+  "status": "ready",
   "series": "imageRUNNER ADVANCE",
   "color": "monochrome",
   "sourceUrl": "https://oip.manual.canon/portal-eu-af-me-ru/contents/iradv-bw.html",
@@ -25,6 +25,28 @@
       "verification": "vendor-listed"
     }
   ],
-  "notes": "Карточка модели подтверждена официальным источником. Целевые ОС — план подбора, не заявление о совместимости. Готовые драйверы и PPD в репозиторий ещё не загружены.",
-  "files": []
+  "notes": "Доступен оригинальный GPL PPD с совпадением обозначения модели. Требуется указанный фильтр Canon. Установка и печать в ALT Linux не проверены; статус ready означает наличие файла, а не проверку всех ОС.",
+  "files": [
+    {
+      "id": "canon-linux-ppd",
+      "kind": "ppd",
+      "os": "linux",
+      "osVersions": [],
+      "architecture": "any",
+      "version": "V6.40",
+      "filename": "CNRCUPSIRADV45453ZK.ppd",
+      "sizeBytes": 164709,
+      "sha256": "c1e9c2dd5e1a786b4ff242d59229b9e8777cf27c14f8cde1ade911076bb03722",
+      "downloadUrl": "https://github.com/fridman0/Test/releases/download/canon-ppd-2026-10-22/CNRCUPSIRADV45453ZK.ppd",
+      "sourceUrl": "https://sg.canon/en/support/0100924010",
+      "license": "GPL-2.0-or-later",
+      "verification": "extracted-not-print-tested",
+      "requires": [
+        "CUPS",
+        "rastertoufr2"
+      ],
+      "packageId": "canon-ufrii-linux-6-40",
+      "ppdModelName": "Canon iR-ADV 4545/4551 III UFR II"
+    }
+  ]
 }

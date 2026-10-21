@@ -3,15 +3,13 @@
   "checkedAt": "2026-10-22",
   "packages": [
     {
-      "id": "canon-ufrii-linux-6-40",
+      "key": "ufr-linux",
       "sourceUrl": "https://sg.canon/en/support/0100924010",
-      "family": "UFR II / UFRII LT",
-      "version": "6.40",
-      "os": "linux",
-      "architectures": [
-        "x86_64"
-      ],
+      "downloadUrl": "https://pdisp01.c-wss.com/gdl/WWUFORedirectTarget.do?id=MDEwMDAwOTI0MDQy&cmp=ACB&lang=EN",
       "filename": "linux-UFRII-drv-v640-m17n-06.tar.gz",
+      "sizeBytes": 51669310,
+      "sha256": "edaf67d18c98f7e6e06defa33d7f35bd80c7312be64dd21a7a676a65d769f964",
+      "version": "V6.40",
       "vendorModels": [
         "LBP3460",
         "LBP3370",
@@ -397,20 +395,26 @@
         "imageCLASS LBP121dn II",
         "imageCLASS LBP741Cx"
       ],
-      "checkedAt": "2026-10-22",
-      "distribution": "official-download-only",
-      "notes": "Ссылка на официальный пакет. Совместимость с конкретным дистрибутивом и работоспособность не проверены; PPD не извлечён. Перепубликация полного пакета не разрешена автоматически наличием GPL-компонентов."
-    },
-    {
-      "id": "canon-generic-plus-ufrii-windows-3-50",
-      "sourceUrl": "https://my.canon/en/support/0101310501",
-      "family": "Generic Plus UFR II",
-      "version": "3.50",
-      "os": "windows",
+      "operatingSystems": "Linux 64bit Linux ARM Linux MIPS",
+      "id": "canon-ufrii-linux-6-40",
+      "os": "linux",
       "architectures": [
         "x86_64"
       ],
+      "distribution": "official-download-only",
+      "checkedAt": "2026-10-22",
+      "installationVerification": "not-tested",
+      "altLinuxCompatibility": "not-tested",
+      "notes": "Официальный пакет Canon, файл скачан и проверена SHA-256. Установка и печать не проверены. Полный пакет не перепубликуется."
+    },
+    {
+      "key": "ufr-windows",
+      "sourceUrl": "https://my.canon/en/support/0101310501",
+      "downloadUrl": "https://pdisp01.c-wss.com/gdl/WWUFORedirectTarget.do?id=MDEwMDAxMzEwNTAx&cmp=ACB&lang=EN",
       "filename": "GPlus_UFRII_Driver_V350_W64_00.exe",
+      "sizeBytes": 41437328,
+      "sha256": "56805e5ab1e823622a9356418cfc27308460079677e3d7602f07094ff11ab605",
+      "version": "V3.50",
       "vendorModels": [
         "imageCLASS LBP7680Cx",
         "LASER SHOT LBP6750dn",
@@ -671,21 +675,25 @@
         "imageCLASS LBP121dn II",
         "imageCLASS LBP741Cx"
       ],
-      "checkedAt": "2026-10-22",
-      "distribution": "official-download-only",
-      "notes": "Ссылка на официальный пакет. Совместимость с конкретным дистрибутивом и работоспособность не проверены; PPD не извлечён. Перепубликация полного пакета не разрешена автоматически наличием GPL-компонентов."
-    },
-    {
-      "id": "canon-capt-linux-2-71",
-      "sourceUrl": "https://my.canon/en/support/0100459601",
-      "family": "CAPT",
-      "version": "2.71",
-      "os": "linux",
+      "operatingSystems": "Windows 11 Windows 10 (x64) Windows Server 2016 (x64) Windows Server 2019 (x64) Windows Server 2022 Windows Server 2025",
+      "id": "canon-generic-plus-ufrii-windows-3-50",
+      "os": "windows",
       "architectures": [
-        "x86",
         "x86_64"
       ],
+      "distribution": "official-download-only",
+      "checkedAt": "2026-10-22",
+      "installationVerification": "not-tested",
+      "notes": "Официальный пакет Canon, файл скачан и проверена SHA-256. Установка и печать не проверены. Полный пакет не перепубликуется."
+    },
+    {
+      "key": "capt-linux",
+      "sourceUrl": "https://my.canon/en/support/0100459601",
+      "downloadUrl": "https://pdisp01.c-wss.com/gdl/WWUFORedirectTarget.do?id=MDEwMDAwNDU5NjA1&cmp=ACB&lang=EN",
       "filename": "linux-capt-drv-v271-uken.tar.gz",
+      "sizeBytes": 127521219,
+      "sha256": "8565a2fdc4f452bb8cf97ceadadd6614d12eac73e253ac6d59e61b8abae941be",
+      "version": "V2.71",
       "vendorModels": [
         "LBP3300",
         "LBP3310",
@@ -709,9 +717,177 @@
         "LASER SHOT LBP6000",
         "LASER SHOT LBP6200d"
       ],
-      "checkedAt": "2026-10-22",
+      "operatingSystems": "Linux 32bit Linux 64bit",
+      "id": "canon-capt-linux-2-71",
+      "os": "linux",
+      "architectures": [
+        "x86_64"
+      ],
       "distribution": "official-download-only",
-      "notes": "Ссылка на официальный пакет. Совместимость с конкретным дистрибутивом и работоспособность не проверены; PPD не извлечён. Перепубликация полного пакета не разрешена автоматически наличием GPL-компонентов."
+      "checkedAt": "2026-10-22",
+      "installationVerification": "not-tested",
+      "altLinuxCompatibility": "not-tested",
+      "notes": "Официальный пакет Canon, файл скачан и проверена SHA-256. Установка и печать не проверены. Полный пакет не перепубликуется."
+    },
+    {
+      "key": "ufrlt-linux",
+      "sourceUrl": "https://sg.canon/en/support/0100595001",
+      "downloadUrl": "https://pdisp01.c-wss.com/gdl/WWUFORedirectTarget.do?id=MDEwMDAwNTk1MDEx&cmp=ACB&lang=EN",
+      "filename": "linux-UFRIILT-drv-v510-m17n.tar.gz",
+      "sizeBytes": 18710058,
+      "sha256": "199ff0dd12c75d5f521c27c25d729e260d25f8fcaa98c1aa7ae11a9d989d6976",
+      "version": "V5.10",
+      "vendorModels": [
+        "imageCLASS LBP7110Cw",
+        "imageCLASS LBP7100Cn",
+        "imageCLASS LBP6230dn",
+        "imageCLASS LBP6030/ LBP6030B/ LBP6030w",
+        "imageCLASS LBP8100n",
+        "imageCLASS LBP151dw",
+        "imageCLASS LBP113w",
+        "imageCLASS LBP912",
+        "imageCLASS LBP913w",
+        "imageCLASS LBP112"
+      ],
+      "operatingSystems": "Linux 32bit Linux 64bit Linux ARM Linux MIPS",
+      "id": "canon-ufriilt-linux-5-10",
+      "os": "linux",
+      "architectures": [
+        "x86_64"
+      ],
+      "distribution": "official-download-only",
+      "checkedAt": "2026-10-22",
+      "installationVerification": "not-tested",
+      "altLinuxCompatibility": "not-tested",
+      "notes": "Официальный пакет Canon, файл скачан и проверена SHA-256. Установка и печать не проверены. Полный пакет не перепубликуется."
+    },
+    {
+      "key": "capt2900-win",
+      "sourceUrl": "https://sg.canon/en/support/0100278201",
+      "downloadUrl": "https://pdisp01.c-wss.com/gdl/WWUFORedirectTarget.do?id=MDEwMDAwMjc4MjA0&cmp=ACB&lang=EN",
+      "filename": "LBP2900_R150_V330_W64_uk_EN_2.exe",
+      "sizeBytes": 11464256,
+      "sha256": "953571b89810ba5644a79e42b9cf9aa38e0ac12f7d183b64d588f6c281341096",
+      "version": "R1.50V3.30",
+      "vendorModels": [
+        "LASER SHOT LBP2900/ 2900B"
+      ],
+      "operatingSystems": "Windows 10 (x64) Windows 8.1 (x64) Windows 8 (x64) Windows 7 (x64) Windows Vista (x64) Windows XP (x64) Windows Server 2003 (x64) Windows Server 2003 R2 (x64) Windows Server 2008 (x64) Windows Server 2008 R2 (x64) Windows Server 2012 (x64) Windows Server 2012 R2 (x64) Windows Server 2016 (x64)",
+      "id": "canon-capt-lbp2900-windows-3-30",
+      "os": "windows",
+      "architectures": [
+        "x86_64"
+      ],
+      "distribution": "official-download-only",
+      "checkedAt": "2026-10-22",
+      "installationVerification": "not-tested",
+      "notes": "Официальный пакет Canon, файл скачан и проверена SHA-256. Установка и печать не проверены. Полный пакет не перепубликуется."
+    },
+    {
+      "key": "capt6000-win",
+      "sourceUrl": "https://asia.canon/en/support/0100298301",
+      "downloadUrl": "https://pdisp01.c-wss.com/gdl/WWUFORedirectTarget.do?id=MDEwMDAwMjk4MzA0&cmp=ACB&lang=EN",
+      "filename": "LBP6000_6018_R150_V110_W64_uk_EN_1.exe",
+      "sizeBytes": 13848128,
+      "sha256": "f4c439144bb07a16af059d1d3080cddab0f49fc3a3342dd751fb1a65f5b988a0",
+      "version": "R1.50V1.10",
+      "vendorModels": [
+        "LASER SHOT LBP6018B",
+        "LASER SHOT LBP6000"
+      ],
+      "operatingSystems": "Windows 11 Windows 10 (x64) Windows 8.1 (x64) Windows 8 (x64) Windows 7 (x64) Windows Vista (x64) Windows XP (x64) Windows Server 2003 (x64) Windows Server 2003 R2 (x64) Windows Server 2008 (x64) Windows Server 2008 R2 (x64) Windows Server 2012 (x64) Windows Server 2012 R2 (x64) Windows Server 2016 (x64) Windows Server 2019 (x64) Windows Server 2022 Windows Server 2025",
+      "id": "canon-capt-lbp6000-windows-1-10",
+      "os": "windows",
+      "architectures": [
+        "x86_64"
+      ],
+      "distribution": "official-download-only",
+      "checkedAt": "2026-10-22",
+      "installationVerification": "not-tested",
+      "notes": "Официальный пакет Canon, файл скачан и проверена SHA-256. Установка и печать не проверены. Полный пакет не перепубликуется."
+    },
+    {
+      "key": "mf3010-win",
+      "sourceUrl": "https://asia.canon/en/support/0100367301",
+      "downloadUrl": "https://pdisp01.c-wss.com/gdl/WWUFORedirectTarget.do?id=MDEwMDAwMzY3MzA1&cmp=ACB&lang=EN",
+      "filename": "MF3010MFDriverV3901WPEN.exe",
+      "sizeBytes": 69693680,
+      "sha256": "2cf258e4b480fd1cc0002908566834e471010c5219b349f7fdb88639c211cb3a",
+      "version": "V3.901",
+      "vendorModels": [
+        "imageCLASS MF3010"
+      ],
+      "operatingSystems": "Windows 11 Windows 10 (x64) Windows 8.1 (x64) Windows 8 (x64) Windows 7 (x64) Windows Vista (x64) Windows XP (x64)",
+      "id": "canon-mf3010-windows-3-901",
+      "os": "windows",
+      "architectures": [
+        "x86_64"
+      ],
+      "distribution": "official-download-only",
+      "checkedAt": "2026-10-22",
+      "installationVerification": "not-tested",
+      "notes": "Официальный пакет Canon, файл скачан и проверена SHA-256. Установка и печать не проверены. Полный пакет не перепубликуется."
+    },
+    {
+      "key": "ufr340-win",
+      "sourceUrl": "https://hk.canon/en/support/0101227001",
+      "downloadUrl": "https://pdisp01.c-wss.com/gdl/WWUFORedirectTarget.do?id=MDEwMDAxMjI3MDEw&cmp=ACB&lang=EN",
+      "filename": "GPlus_UFRII_Driver_V340_W64_00.exe",
+      "sizeBytes": 41506960,
+      "sha256": "6fab8102f8b0974114cd172e89a4bbb20e28e1bf643a035ba14614ef5edc898e",
+      "version": "V3.40",
+      "vendorModels": [
+        "imageRUNNER ADVANCE 6075",
+        "imageRUNNER ADVANCE 6065",
+        "imageRUNNER ADVANCE 6055",
+        "imageRUNNER ADVANCE 8105",
+        "imageRUNNER ADVANCE 8095",
+        "imageRUNNER ADVANCE C2020/ C2020H",
+        "imageRUNNER ADVANCE C2030/ C2030H",
+        "imageRUNNER ADVANCE C5051/ C5051x",
+        "imageRUNNER ADVANCE C5045",
+        "imageRUNNER ADVANCE C5035",
+        "imageRUNNER ADVANCE C5030",
+        "imageRUNNER ADVANCE C9075 PRO",
+        "imageRUNNER ADVANCE C9065 PRO",
+        "imageRUNNER ADVANCE C7055",
+        "imageRUNNER ADVANCE C2025H",
+        "imagePRESS C7010VP",
+        "imagePRESS C6010",
+        "LASER SHOT LBP6650dn",
+        "imageRUNNER ADVANCE C5240",
+        "imageRUNNER ADVANCE C5235",
+        "imageRUNNER ADVANCE 4235",
+        "imageRUNNER ADVANCE 4225",
+        "imageRUNNER ADVANCE C9280 PRO",
+        "imageRUNNER ADVANCE C9270 PRO",
+        "imageRUNNER ADVANCE C7270",
+        "imageRUNNER ADVANCE C7260",
+        "imageRUNNER ADVANCE C2230",
+        "imageRUNNER ADVANCE C2225",
+        "imageRUNNER ADVANCE C2220/ C2220L",
+        "imageRUNNER ADVANCE 6275",
+        "imageRUNNER ADVANCE 8205",
+        "imageRUNNER ADVANCE 8295",
+        "imageRUNNER ADVANCE C350i",
+        "imagePRESS C800",
+        "imagePRESS C700",
+        "imagePRESS C600",
+        "imageRUNNER ADVANCE C3320",
+        "imagePRESS C850",
+        "imagePRESS C750",
+        "imagePRESS C650"
+      ],
+      "operatingSystems": "Windows 11 Windows 10 (x64) Windows Server 2016 (x64) Windows Server 2019 (x64) Windows Server 2022 Windows Server 2025",
+      "id": "canon-generic-plus-ufrii-windows-3-40",
+      "os": "windows",
+      "architectures": [
+        "x86_64"
+      ],
+      "distribution": "official-download-only",
+      "checkedAt": "2026-10-22",
+      "installationVerification": "not-tested",
+      "notes": "Официальный пакет Canon, файл скачан и проверена SHA-256. Установка и печать не проверены. Полный пакет не перепубликуется."
     }
   ]
 }

@@ -2,7 +2,7 @@
   "id": "canon-imagerunner-1435",
   "manufacturer": "canon",
   "model": "Canon imageRUNNER 1435",
-  "status": "awaiting-files",
+  "status": "ready",
   "series": "imageRUNNER",
   "color": "monochrome",
   "sourceUrl": "https://oip.manual.canon/portal-eu-af-me-ru/contents/ir-bw.html",
@@ -20,6 +20,28 @@
       "verification": "vendor-listed"
     }
   ],
-  "notes": "Карточка модели подтверждена официальным источником. Целевые ОС — план подбора, не заявление о совместимости. Готовые драйверы и PPD в репозиторий ещё не загружены.",
-  "files": []
+  "notes": "Доступен оригинальный GPL PPD с совпадением обозначения модели. Требуется указанный фильтр Canon. Установка и печать в ALT Linux не проверены; статус ready означает наличие файла, а не проверку всех ОС.",
+  "files": [
+    {
+      "id": "canon-linux-ppd",
+      "kind": "ppd",
+      "os": "linux",
+      "osVersions": [],
+      "architecture": "any",
+      "version": "V6.40",
+      "filename": "CNRCUPSIR1435ZK.ppd",
+      "sizeBytes": 46112,
+      "sha256": "38d679b54b421f366c62f49dcf3796f2d9cad5c80bf1ee6cd3b0603f79d5c5d7",
+      "downloadUrl": "https://github.com/fridman0/Test/releases/download/canon-ppd-2026-10-22/CNRCUPSIR1435ZK.ppd",
+      "sourceUrl": "https://sg.canon/en/support/0100924010",
+      "license": "GPL-2.0-or-later",
+      "verification": "extracted-not-print-tested",
+      "requires": [
+        "CUPS",
+        "rastertoufr2"
+      ],
+      "packageId": "canon-ufrii-linux-6-40",
+      "ppdModelName": "Canon iR1435 UFRII LT"
+    }
+  ]
 }

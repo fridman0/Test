@@ -2,7 +2,7 @@
   "id": "canon-lbp5000",
   "manufacturer": "canon",
   "model": "Canon LBP5000",
-  "status": "awaiting-files",
+  "status": "ready",
   "series": "LBP / CAPT",
   "sourceUrl": "https://my.canon/en/support/0100459601",
   "checkedAt": "2026-10-22",
@@ -18,6 +18,28 @@
       "verification": "vendor-listed"
     }
   ],
-  "notes": "Карточка модели подтверждена официальным источником. Целевые ОС — план подбора, не заявление о совместимости. Готовые драйверы и PPD в репозиторий ещё не загружены.",
-  "files": []
+  "notes": "Доступен оригинальный GPL PPD с совпадением обозначения модели. Требуется указанный фильтр Canon. Установка и печать в ALT Linux не проверены; статус ready означает наличие файла, а не проверку всех ОС.",
+  "files": [
+    {
+      "id": "canon-linux-ppd",
+      "kind": "ppd",
+      "os": "linux",
+      "osVersions": [],
+      "architecture": "any",
+      "version": "V2.71",
+      "filename": "CNCUPSLBP5000CAPTJ.ppd",
+      "sizeBytes": 18479,
+      "sha256": "9e4b6f2c3ed8fca4b0bdbaf45c23541076a95fa9bd797a2c1fcfff2a1d570c2f",
+      "downloadUrl": "https://github.com/fridman0/Test/releases/download/canon-ppd-2026-10-22/CNCUPSLBP5000CAPTJ.ppd",
+      "sourceUrl": "https://my.canon/en/support/0100459601",
+      "license": "GPL-2.0-or-later",
+      "verification": "extracted-not-print-tested",
+      "requires": [
+        "CUPS",
+        "pstocapt2"
+      ],
+      "packageId": "canon-capt-linux-2-71",
+      "ppdModelName": "Canon LBP5000 CAPT Japanese"
+    }
+  ]
 }

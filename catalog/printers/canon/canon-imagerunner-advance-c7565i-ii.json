@@ -2,7 +2,7 @@
   "id": "canon-imagerunner-advance-c7565i-ii",
   "manufacturer": "canon",
   "model": "Canon imageRUNNER ADVANCE C7565i II",
-  "status": "awaiting-files",
+  "status": "ready",
   "series": "imageRUNNER ADVANCE",
   "color": "color",
   "sourceUrl": "https://oip.manual.canon/portal-eu-af-me-ru/contents/iradv-cl.html",
@@ -14,6 +14,28 @@
     "linux-x86_64"
   ],
   "driverCandidates": [],
-  "notes": "Карточка модели подтверждена официальным источником. Целевые ОС — план подбора, не заявление о совместимости. Готовые драйверы и PPD в репозиторий ещё не загружены.",
-  "files": []
+  "notes": "Доступен оригинальный GPL PPD с совпадением обозначения модели. Требуется указанный фильтр Canon. Установка и печать в ALT Linux не проверены; статус ready означает наличие файла, а не проверку всех ОС.",
+  "files": [
+    {
+      "id": "canon-linux-ppd",
+      "kind": "ppd",
+      "os": "linux",
+      "osVersions": [],
+      "architecture": "any",
+      "version": "V6.40",
+      "filename": "CNRCUPSIRADVC75653ZK.ppd",
+      "sizeBytes": 322629,
+      "sha256": "e2a7fdbcb2e31d82d483963ea4c36fcec6eb75ee459aa5a177e4c2ad1ee0c126",
+      "downloadUrl": "https://github.com/fridman0/Test/releases/download/canon-ppd-2026-10-22/CNRCUPSIRADVC75653ZK.ppd",
+      "sourceUrl": "https://sg.canon/en/support/0100924010",
+      "license": "GPL-2.0-or-later",
+      "verification": "extracted-not-print-tested",
+      "requires": [
+        "CUPS",
+        "rastertoufr2"
+      ],
+      "packageId": "canon-ufrii-linux-6-40",
+      "ppdModelName": "Canon iR-ADV C7565 III UFR II"
+    }
+  ]
 }

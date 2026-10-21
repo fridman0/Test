@@ -2,7 +2,7 @@
   "id": "canon-imagerunner-advance-c5250",
   "manufacturer": "canon",
   "model": "Canon imageRUNNER ADVANCE C5250",
-  "status": "awaiting-files",
+  "status": "ready",
   "series": "imageRUNNER ADVANCE",
   "color": "color",
   "sourceUrl": "https://oip.manual.canon/portal-eu-af-me-ru/contents/iradv-cl.html",
@@ -25,6 +25,28 @@
       "verification": "vendor-listed"
     }
   ],
-  "notes": "Карточка модели подтверждена официальным источником. Целевые ОС — план подбора, не заявление о совместимости. Готовые драйверы и PPD в репозиторий ещё не загружены.",
-  "files": []
+  "notes": "Доступен оригинальный GPL PPD с совпадением обозначения модели. Требуется указанный фильтр Canon. Установка и печать в ALT Linux не проверены; статус ready означает наличие файла, а не проверку всех ОС.",
+  "files": [
+    {
+      "id": "canon-linux-ppd",
+      "kind": "ppd",
+      "os": "linux",
+      "osVersions": [],
+      "architecture": "any",
+      "version": "V6.40",
+      "filename": "CNRCUPSIRADVC5255ZJ.ppd",
+      "sizeBytes": 200650,
+      "sha256": "df3a6d630e6bce54b90ec88d0542ad85ba54741b8d83b4a6c2dca6707a187070",
+      "downloadUrl": "https://github.com/fridman0/Test/releases/download/canon-ppd-2026-10-22/CNRCUPSIRADVC5255ZJ.ppd",
+      "sourceUrl": "https://sg.canon/en/support/0100924010",
+      "license": "GPL-2.0-or-later",
+      "verification": "extracted-not-print-tested",
+      "requires": [
+        "CUPS",
+        "rastertoufr2"
+      ],
+      "packageId": "canon-ufrii-linux-6-40",
+      "ppdModelName": "Canon iR-ADV C5250/5255 LIPSLX"
+    }
+  ]
 }

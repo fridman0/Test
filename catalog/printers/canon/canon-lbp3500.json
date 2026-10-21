@@ -2,7 +2,7 @@
   "id": "canon-lbp3500",
   "manufacturer": "canon",
   "model": "Canon LBP3500",
-  "status": "awaiting-files",
+  "status": "ready",
   "series": "LBP / CAPT",
   "sourceUrl": "https://my.canon/en/support/0100459601",
   "checkedAt": "2026-10-22",
@@ -18,6 +18,28 @@
       "verification": "vendor-listed"
     }
   ],
-  "notes": "Карточка модели подтверждена официальным источником. Целевые ОС — план подбора, не заявление о совместимости. Готовые драйверы и PPD в репозиторий ещё не загружены.",
-  "files": []
+  "notes": "Доступен оригинальный GPL PPD с совпадением обозначения модели. Требуется указанный фильтр Canon. Установка и печать в ALT Linux не проверены; статус ready означает наличие файла, а не проверку всех ОС.",
+  "files": [
+    {
+      "id": "canon-linux-ppd",
+      "kind": "ppd",
+      "os": "linux",
+      "osVersions": [],
+      "architecture": "any",
+      "version": "V2.71",
+      "filename": "CNCUPSLBP3500CAPTJ.ppd",
+      "sizeBytes": 25343,
+      "sha256": "0a24b6dfedccb4207110c5103d3b585af5c1fd23020885b3df391cf53aca1668",
+      "downloadUrl": "https://github.com/fridman0/Test/releases/download/canon-ppd-2026-10-22/CNCUPSLBP3500CAPTJ.ppd",
+      "sourceUrl": "https://my.canon/en/support/0100459601",
+      "license": "GPL-2.0-or-later",
+      "verification": "extracted-not-print-tested",
+      "requires": [
+        "CUPS",
+        "pstocapt3"
+      ],
+      "packageId": "canon-capt-linux-2-71",
+      "ppdModelName": "Canon LBP3500 CAPT (JP)"
+    }
+  ]
 }

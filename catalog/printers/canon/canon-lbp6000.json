@@ -2,7 +2,7 @@
   "id": "canon-lbp6000",
   "manufacturer": "canon",
   "model": "Canon LBP6000",
-  "status": "awaiting-files",
+  "status": "ready",
   "series": "LBP / CAPT",
   "sourceUrl": "https://my.canon/en/support/0100459601",
   "checkedAt": "2026-10-22",
@@ -18,6 +18,28 @@
       "verification": "vendor-listed"
     }
   ],
-  "notes": "Карточка модели подтверждена официальным источником. Целевые ОС — план подбора, не заявление о совместимости. Готовые драйверы и PPD в репозиторий ещё не загружены.",
-  "files": []
+  "notes": "Доступен оригинальный GPL PPD с совпадением обозначения модели. Требуется указанный фильтр Canon. Установка и печать в ALT Linux не проверены; статус ready означает наличие файла, а не проверку всех ОС.",
+  "files": [
+    {
+      "id": "canon-linux-ppd",
+      "kind": "ppd",
+      "os": "linux",
+      "osVersions": [],
+      "architecture": "any",
+      "version": "V2.71",
+      "filename": "CNCUPSLBP6018CAPTK.ppd",
+      "sizeBytes": 17299,
+      "sha256": "c999f087aa4d4bd557ca5ac9932f2299884b3d522e24be5d228888ce4b94e2a5",
+      "downloadUrl": "https://github.com/fridman0/Test/releases/download/canon-ppd-2026-10-22/CNCUPSLBP6018CAPTK.ppd",
+      "sourceUrl": "https://my.canon/en/support/0100459601",
+      "license": "GPL-2.0-or-later",
+      "verification": "extracted-not-print-tested",
+      "requires": [
+        "CUPS",
+        "pstocapt3"
+      ],
+      "packageId": "canon-capt-linux-2-71",
+      "ppdModelName": "Canon LBP6000/LBP6018 CAPT (UK)"
+    }
+  ]
 }
