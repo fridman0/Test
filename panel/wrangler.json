@@ -1,2 +1,17 @@
-{"name":"printhub-panel","main":"worker.ts","compatibility_date":"2026-05-15","compatibility_flags":["nodejs_compat"],"workers_dev":true,"d1_databases":[{"binding":"DB","database_name":"printhub","database_id":"3f005413-e5d5-42f2-9208-66ac2831552b","migrations_dir":"drizzle"}]}
-
+{
+  "name": "printhub",
+  "main": "worker.ts",
+  "compatibility_date": "2026-05-15",
+  "compatibility_flags": [
+    "nodejs_compat"
+  ],
+  "workers_dev": true,
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "printhub",
+      "database_id": "3f005413-e5d5-42f2-9208-66ac2831552b",
+      "migrations_dir": "drizzle"
+    }
+  ]
+}
